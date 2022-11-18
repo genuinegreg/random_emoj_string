@@ -1,8 +1,8 @@
 {
-  "name": "random_emoj_string",
+  "name": "random_emoji_string",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/genuinegreg/random_emoj_string.git",
+  "repository": "https://github.com/genuinegreg/random_emoji_string.git",
   "license": "MIT",
   "devDependencies": {
     "http-server": "^14.1.1"
