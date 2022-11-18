@@ -1,5 +1,5 @@
 
-import { emojisNumber, writeEmojis } from './stuff.js'
+import { emojisNumber, writeEmojis, copy } from './stuff.js'
 
 
 writeEmojis(emojisNumber())
@@ -7,3 +7,11 @@ writeEmojis(emojisNumber())
 window.addEventListener('hashchange', () => {
     writeEmojis(emojisNumber())
 })
+
+window.newEmoji = function () {
+    writeEmojis(emojisNumber())
+}
+
+window.copy = function () {
+    copy()
+}

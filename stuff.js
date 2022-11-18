@@ -15,3 +15,7 @@ export function writeEmojis(number) {
 
     document.querySelector('.emojistring').replaceChildren(emojis.join(''))
 }
+
+export function copy() {
+    navigator.clipboard.writeText(document.querySelector('.emojistring').textContent)
+}
