@@ -1,4 +1,4 @@
-body  {
+body {
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,9 +10,47 @@ body  {
 
     align-items: center;
     justify-content: center;
+}
 
+.emojistring {
+    line-height: 2em;
+    text-align: center;
+    padding: 1em;
+}
+
+.change-number {
+    justify-self: end;
 }
 
 button {
     cursor: pointer;
+    border-radius: 0.25rem;
+    border-width: 2px;
+    /* font-size: 2em; */
+
+    --tw-bg-opacity: 1;
+    background-color: #e4e4e7;
+    background-color: rgba(228, 228, 231, var(--tw-bg-opacity));
+
+    --tw-border-opacity: 1;
+    border-color: #71717a;
+    border-color: rgba(113, 113, 122, var(--tw-border-opacity));
+
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+button:hover {
+    --tw-bg-opacity: 1;
+    background-color: #727272;
+}
+
+a {
+    font-size: 1.5em;
+    color: darkgray;
+    text-decoration: underline;
+    margin: 0 0.4em;
 }

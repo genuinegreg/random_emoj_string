@@ -19,3 +19,5 @@ export function writeEmojis(number) {
 export function copy() {
     navigator.clipboard.writeText(document.querySelector('.emojistring').textContent)
 }
+
+// document.querySelector('.main').addEventListener('')
